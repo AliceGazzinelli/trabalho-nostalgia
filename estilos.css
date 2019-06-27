@@ -1,0 +1,235 @@
+body {
+  margin: 0px;
+}
+
+header {
+  font-family: "Macondo Swash Caps", cursive;
+  text-align: center;
+  background-image: url("img/fundo3.png");
+  background-repeat: repeat;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  height: 180px;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+#titulo {
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 7px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+nav {
+  background-color: #FFFACD;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul{
+  margin-top:0px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-size: 20px;
+  padding-left: 70px;
+  margin: 7px;
+  list-style: none;
+
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#introducao {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1500px;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 32px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.principal {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+#filmes-disney {
+  background-image: linear-gradient(#00688B, white 15%, #00688B 140%);
+  padding: 30px;
+  padding-bottom: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+#filmes-disney h3 {
+  color: white;
+}
+
+#filmes-disney article {
+  clear: both;
+  margin: 70px;
+}
+
+#filmes-disney img {
+  margin-right: 10px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  border: 3px solid black;
+}
+
+.esquerda img{
+  float: left;
+}
+
+.direita img{
+  float: right;
+}
+
+.esquerda p {
+  margin-right: 100px;
+  padding-top: 10px;
+}
+
+.direita p {
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+#let-it-shine_img{
+  width: 130px;
+  height: 200px;
+}
+
+#camp-hsm_img, #stars-hannah_img, #lemonade-teen_img {
+  width: 300px;
+}
+
+#vs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 200px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#filmes-nick {
+  margin: 100px;
+  border: 5px solid #FF8000;
+  padding: 30px;
+}
+
+#filmes-nick img {
+  height: 230px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Disney-vs-Nick {
+  width: 350px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10%;
+  background-color: lightgray;
+  position: absolute;
+  left: -500px;
+  margin-top: 50px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#filmes .click {
+  position: absolute;
+  left: 900px;
+}
+
+#series .click {
+  position: absolute;
+  left: 38%;
+  top: 750px;
+}
+
+#series-disney {
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  padding: 15px;
+  background-image: linear-gradient(to right bottom, skyblue, white);
+  border-radius: 10px;
+}
+
+#series-nick {
+  width: 500px;
+  float: right;
+  margin-right: 20px;
+  background-image: linear-gradient(to left bottom, #FFAE3C, white);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#series-disney h3, #series-nick h3 {
+  margin-bottom: 40px;
+}
+
+#series #vs {
+  float: left;
+  left: 8%;
+}
